@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "F++",
+  "scopeName": "source.fpp",
+  "patterns": [
+    {
+      "name": "keyword.control.fpp",
+      "match": "\\b(is|oris|else|when)\\b"
+    },
+    {
+      "name": "storage.type.fpp",
+      "match": "\\b(var)\\b"
+    },
+    {
+      "name": "support.function.fpp",
+      "match": "\\b(show|read)\\b"
+    },
+    {
+      "name": "string.quoted.double.fpp",
+      "begin": "\"",
+      "end": "\""
+    }
+  ]
+}
